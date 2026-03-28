@@ -1,0 +1,103 @@
+{
+  "tabs": {
+    "schedule": "Raspored",
+    "calendar": "Kalendar",
+    "statistics": "Statistika",
+    "todos": "Zadaci",
+    "notes": "Beleške"
+  },
+  "schedule": {
+    "title": "Nedeljni raspored",
+    "prevWeek": "Prethodna nedelja",
+    "nextWeek": "Sledeća nedelja",
+    "today": "Danas",
+    "addActivity": "Dodaj aktivnost...",
+    "deleteActivity": "Obriši aktivnost",
+    "changeCategory": "Promeni kategoriju",
+    "noCategory": "Bez kategorije",
+    "currentWeek": "Trenutna nedelja"
+  },
+  "calendar": {
+    "title": "Kalendar",
+    "addEvent": "Dodaj događaj",
+    "editEvent": "Izmeni događaj",
+    "deleteEvent": "Obriši događaj",
+    "eventTitle": "Naziv događaja",
+    "eventNote": "Napomena (opciono)",
+    "noEvents": "Nema događaja ovog meseca",
+    "save": "Sačuvaj",
+    "cancel": "Otkaži",
+    "months": ["Januar","Februar","Mart","April","Maj","Jun","Jul","Avgust","Septembar","Oktobar","Novembar","Decembar"],
+    "days": ["Pon","Uto","Sre","Čet","Pet","Sub","Ned"]
+  },
+  "statistics": {
+    "title": "Statistika",
+    "day": "Dan",
+    "week": "Nedelja",
+    "month": "Mesec",
+    "totalHours": "Ukupno sati",
+    "topCategory": "Vodeća kategorija",
+    "mostActiveDay": "Najaktivniji dan",
+    "remainingWeek": "Preostalo ove nedelje",
+    "remainingMonth": "Preostalo ovog meseca",
+    "hoursLogged": "sati uneseno",
+    "hoursRemaining": "sati preostalo",
+    "noData": "Još nema podataka",
+    "distribution": "Raspodela vremena",
+    "byCategory": "Po kategoriji"
+  },
+  "todos": {
+    "title": "Lista zadataka",
+    "addTask": "Dodaj zadatak...",
+    "add": "Dodaj",
+    "all": "Svi",
+    "active": "Aktivni",
+    "completed": "Završeni",
+    "priority": "Prioritet",
+    "high": "Visok",
+    "medium": "Srednji",
+    "low": "Nizak",
+    "dueDate": "Rok",
+    "description": "Opis",
+    "noTasks": "Još nema zadataka",
+    "deleteTask": "Obriši zadatak",
+    "editTask": "Izmeni zadatak",
+    "save": "Sačuvaj",
+    "cancel": "Otkaži"
+  },
+  "notes": {
+    "title": "Dnevne beleške",
+    "placeholder": "Zapiši misli za danas...",
+    "noNote": "Nema beleške za ovaj datum",
+    "saved": "Sačuvano"
+  },
+  "settings": {
+    "title": "Podešavanja",
+    "language": "Jezik",
+    "categories": "Kategorije i ključne reči",
+    "addCategory": "Dodaj kategoriju",
+    "editCategory": "Izmeni kategoriju",
+    "categoryNameEn": "Naziv (engleski)",
+    "categoryNameSr": "Naziv (srpski)",
+    "icon": "Ikona",
+    "color": "Boja",
+    "keywords": "Ključne reči (odvojene zarezom)",
+    "deleteCategory": "Obriši kategoriju",
+    "export": "Izvezi podatke",
+    "import": "Uvezi podatke",
+    "exportSuccess": "Podaci su uspešno izvezeni",
+    "importSuccess": "Podaci su uspešno uvezeni",
+    "importConfirm": "Ovo će zameniti sve postojeće podatke. Nastavi?",
+    "save": "Sačuvaj",
+    "cancel": "Otkaži",
+    "version": "Verzija"
+  },
+  "common": {
+    "loading": "Učitavanje...",
+    "error": "Došlo je do greške",
+    "confirm": "Potvrdi",
+    "delete": "Obriši",
+    "edit": "Izmeni",
+    "close": "Zatvori"
+  }
+}

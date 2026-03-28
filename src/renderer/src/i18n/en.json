@@ -1,0 +1,103 @@
+{
+  "tabs": {
+    "schedule": "Schedule",
+    "calendar": "Calendar",
+    "statistics": "Statistics",
+    "todos": "To-Do",
+    "notes": "Notes"
+  },
+  "schedule": {
+    "title": "Weekly Schedule",
+    "prevWeek": "Previous week",
+    "nextWeek": "Next week",
+    "today": "Today",
+    "addActivity": "Add activity...",
+    "deleteActivity": "Delete activity",
+    "changeCategory": "Change category",
+    "noCategory": "Uncategorized",
+    "currentWeek": "Current Week"
+  },
+  "calendar": {
+    "title": "Calendar",
+    "addEvent": "Add Event",
+    "editEvent": "Edit Event",
+    "deleteEvent": "Delete Event",
+    "eventTitle": "Event title",
+    "eventNote": "Note (optional)",
+    "noEvents": "No events this month",
+    "save": "Save",
+    "cancel": "Cancel",
+    "months": ["January","February","March","April","May","June","July","August","September","October","November","December"],
+    "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+  },
+  "statistics": {
+    "title": "Statistics",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "totalHours": "Total Hours",
+    "topCategory": "Top Category",
+    "mostActiveDay": "Most Active Day",
+    "remainingWeek": "Remaining This Week",
+    "remainingMonth": "Remaining This Month",
+    "hoursLogged": "hours logged",
+    "hoursRemaining": "hours remaining",
+    "noData": "No activity data yet",
+    "distribution": "Time Distribution",
+    "byCategory": "By Category"
+  },
+  "todos": {
+    "title": "To-Do List",
+    "addTask": "Add task...",
+    "add": "Add",
+    "all": "All",
+    "active": "Active",
+    "completed": "Completed",
+    "priority": "Priority",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "dueDate": "Due date",
+    "description": "Description",
+    "noTasks": "No tasks yet",
+    "deleteTask": "Delete task",
+    "editTask": "Edit task",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "notes": {
+    "title": "Daily Notes",
+    "placeholder": "Write your thoughts for today...",
+    "noNote": "No note for this date",
+    "saved": "Saved"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "categories": "Categories & Keywords",
+    "addCategory": "Add Category",
+    "editCategory": "Edit Category",
+    "categoryNameEn": "Name (English)",
+    "categoryNameSr": "Name (Serbian)",
+    "icon": "Icon",
+    "color": "Color",
+    "keywords": "Keywords (comma-separated)",
+    "deleteCategory": "Delete category",
+    "export": "Export Data",
+    "import": "Import Data",
+    "exportSuccess": "Data exported successfully",
+    "importSuccess": "Data imported successfully",
+    "importConfirm": "This will overwrite all existing data. Continue?",
+    "save": "Save",
+    "cancel": "Cancel",
+    "version": "Version"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close"
+  }
+}

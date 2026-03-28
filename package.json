@@ -1,0 +1,70 @@
+{
+  "name": "planner",
+  "version": "1.0.0",
+  "description": "Personal desktop planner app",
+  "main": "./out/main/index.js",
+  "author": "mano",
+  "private": true,
+  "scripts": {
+    "gen-icon": "node scripts/gen-icon.mjs",
+    "dev": "electron-vite dev",
+    "build": "electron-vite build && electron-builder",
+    "build:win": "node scripts/gen-icon.mjs && electron-vite build && electron-builder --win",
+    "preview": "electron-vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^3.0.1",
+    "@electron-toolkit/utils": "^3.0.0",
+    "i18next": "^23.14.0",
+    "node-sqlite3-wasm": "^0.8.55",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.0.2",
+    "recharts": "^2.13.0",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@electron-toolkit/eslint-config-ts": "^2.0.0",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "electron": "^33.4.11",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^2.3.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9"
+  },
+  "build": {
+    "appId": "com.personal.planner",
+    "productName": "Planner",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "out/**",
+      "node_modules/node-sqlite3-wasm/**",
+      "node_modules/@electron-toolkit/**"
+    ],
+    "asar": true,
+    "win": {
+      "target": "nsis",
+      "icon": "resources/icon.ico",
+      "artifactName": "Planner-Setup-${version}.${ext}",
+      "signAndEditExecutable": false,
+      "signDlls": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    },
+    "extraResources": [
+      { "from": "resources/icon.png", "to": "icon.png" }
+    ]
+  }
+}
